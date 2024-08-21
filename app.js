@@ -192,7 +192,7 @@ class App {
       this.$modal.classList.add("open-modal");
       this.$modalTitle.value = this.title;
       this.$modalText.value = this.text;
-    } else if (!event.target.closest(".modal-content")) {
+    } else if (event.target.matches(".modal")) {
       this.closeModal();
     }
   }
