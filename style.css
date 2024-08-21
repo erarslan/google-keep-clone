@@ -112,8 +112,6 @@ header {
   width: calc(100% - 10px);
   min-height: 43px;
   margin: 0 5px;
-  font-weight: 500;
-  line-height: 1.5rem;
   letter-spacing: 0.00625em;
   border: 0;
   overflow: hidden;
@@ -127,12 +125,8 @@ header {
 
 .modal-text {
   width: calc(100% - 10px);
-  min-height: 43px;
   margin: 0 5px;
-  padding: 10px 10px;
-  font-size: 1rem;
   font-weight: 500;
-  line-height: 1.5rem;
   letter-spacing: 0.00625em;
   border: 0;
   overflow: hidden;
@@ -226,7 +220,6 @@ input:focus {
 }
 
 .note-title {
-  padding-top: 12px;
   letter-spacing: 0.00625em;
   font-size: 1rem;
   font-weight: 500;
